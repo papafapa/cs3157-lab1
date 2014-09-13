@@ -7,14 +7,12 @@
  *   It will also say whether the numerbs are co-prime or not
  **/
 
-
 #include <stdio.h>
-//#include "prime.h"
-//#include "gcd.h"
+#include "prime.h"
+#include "gcd.h"
 
-void prime(int x);
-int gcd(int u, int v);
-
+//void prime(int x);
+//int gcd(int u, int v);
 
 main () {
 	
@@ -43,29 +41,29 @@ main () {
 	}
 }
 
-void prime(int x){
+//void prime(int x){
 
-   	 int i = x - 1;
-   	 while (x % i != 0) { i--;}
-   	 if (i > 1) {
- 		 printf("%d is not prime.\n", x);
+//   	 int i = x - 1;
+//  	 while (x % i != 0) { i--;}
+//   	 if (i > 1) {
+// 		 printf("%d is not prime.\n", x);
 			 
-	 } else {
-		 printf("%d is prime.\n", x);
- 	} 
- }
+//	 } else {
+//		 printf("%d is prime.\n", x);
+// 	} 
+// }
 
 
 
 //this GCD function is from:
 //http://rosettacode.org/wiki/Greatest_common_divisor#Iterative_Euclid_algorithm
 
-int gcd(int u, int v){
-	int t;
-	while (v) {
-		t = u; 
-		u = v; 
-		v = t % v;
-	}
-	return u < 0 ? -u : u; /* abs(u) */
-}
+//int gcd(int u, int v){
+//	int t;
+//	while (v) {
+//		t = u; 
+//		u = v; 
+//		v = t % v;
+//	}
+//	return u < 0 ? -u : u; /* abs(u) */
+//}

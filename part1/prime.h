@@ -1,0 +1,1 @@
+void prime(int x);
