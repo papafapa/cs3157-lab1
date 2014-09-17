@@ -14,7 +14,7 @@
 //void prime(int x);
 //int gcd(int u, int v);
 
-main () {
+int main () {
 	
 	int x, y;
 	float avg;
@@ -39,6 +39,8 @@ main () {
 	} else {
 		printf("The GCD of %d and %d is %d.  They are not relatively prime.\n", x, y, gcd(x,y));
 	}
+
+	return 0;
 }
 
 //void prime(int x){
